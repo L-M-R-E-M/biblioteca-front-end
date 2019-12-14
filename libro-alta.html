@@ -52,7 +52,7 @@
           
           <ul class="navbar-nav ml-auto flex-column-reverse flex-md-row">
               <li>
-              <a id="cerrar_sesion" class="nav-link" href="index.html">Cerrar Sesion <span class="sr-only"></span></a>
+              <a id="cerrar_sesion" class="nav-link" href="index.php">Cerrar Sesion <span class="sr-only"></span></a>
               </li>
               </ul>
 
@@ -86,12 +86,12 @@ Seleccionar Usuario:<br><select name="usuario" class="form-control" id="usuarios
 <script type="text/javascript">
 
 if(localStorage.getItem("token") === null){
-  window.location.href = "index.html";
+  window.location.href = "index.php";
 } 
 
 $('#cerrar_sesion').on('click', function(e) {
 localStorage.clear();
-window.location.href = "index.html";
+window.location.href = "index.php";
 });
 
 $.ajax({
