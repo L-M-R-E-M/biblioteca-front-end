@@ -13,51 +13,51 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="principal.html">Biblioteca La Esperanza</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" name="principal" href="principal.html">Biblioteca La Esperanza</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Altas
+          <a class="nav-link dropdown-toggle" name="altas" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Altas
+          </a>
+          <div class="dropdown-menu" name="navar" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" name="altaUsuario" href="usuario-alta.html">Alta Usuario</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" name="altaLibro" href="libro-alta.html">Alta Libro</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" name="altaPrestamo" href="prestamo-alta.html">Alta Préstamo</a>
+          </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" name="VEOE" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visualizar, Editar o Eliminar
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="usuario-alta.html">Alta Usuario</a>
+              <div class="dropdown-menu" name="navar2" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" name="usuario" href="reporte-usuario.html">Usuario</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="libro-alta.html">Alta Libro</a>
+                <a class="dropdown-item" name="libros" href="reporte-libro.html">Libro</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="prestamo-alta.html">Alta Préstamo</a>
-              </div>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Visualizar, Editar o Eliminar
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="reporte-usuario.html">Usuario</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="reporte-libro.html">Libro</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="reporte-prestamo.html">Préstamo</a>
-                </div>
-                </li>
-            
-          </ul>
-          
-          <ul class="navbar-nav ml-auto flex-column-reverse flex-md-row">
-            <li>
-            <a id="cerrar_sesion" class="nav-link" href="index.php">Cerrar Sesion <span class="sr-only"></span></a>
+                <a class="dropdown-item" nmae="prestamos" href="reporte-prestamo.html">Préstamo</a>
+            </div>
             </li>
-            </ul>
+        
+      </ul>
+      
+      <ul class="navbar-nav ml-auto flex-column-reverse flex-md-row">
+        <li>
+        <a id="cerrar_sesion" name="cerrar_sesion" class="nav-link" href="index.php">Cerrar Sesion <span class="sr-only"></span></a>
+        </li>
+        </ul>
 
-        </div>
-      </nav>
+    </div>
+  </nav>
 
 <div class="container-fluid">
 <div class="row h-100 d-flex justify-content-center">
